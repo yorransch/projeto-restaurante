@@ -1,0 +1,134 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #131312 , #6a6560  );
+}
+
+#inicio-menu{
+    background-image: url(img/tartar-atum-slide.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+}
+#titulo-menu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #b4d0aeb3;
+    width: 20rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 40px;
+    border-left: solid white 2px ;
+    border-right: solid white 2px ;
+
+}
+
+#titulo-menu h1 {
+    margin: 1rem;
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 0px 50px;
+    color: white;
+    border-left: solid white 3px;
+    border-right: solid white 3px;
+
+}
+
+#menu-descrisao{
+    margin: 5rem 0px 0px;
+}
+
+#menu-comidas{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 3rem 0rem;
+    text-align: center;
+
+
+
+}
+#entrantes h1{
+    font-size: 2.5rem;
+    color: whitesmoke;
+
+}
+#entrantes p{
+    font-size: 1rem;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+#especialidade-brasa h1{
+    font-size: 2.5rem;
+    color: whitesmoke;
+
+}
+#especialidade-brasa p{
+    font-size: 1rem;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+#descreisao-dos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+}
+
+#Carnes h1{
+    font-size: 2.5rem;
+    color: whitesmoke;
+
+}
+#Carnes p{
+    font-size: 1rem;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+#postres h1{
+    font-size: 2.5rem;
+    color: whitesmoke;
+
+}
+#postres p{
+    font-size: 1rem;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+
+.slide {
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+}

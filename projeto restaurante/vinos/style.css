@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #eb9e67 , #895c33  );
+}
+
+#inicio-vino{
+    background-image: url(img/vino-bebidas.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+
+
+}
+#titulo-vino{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #b4d0aeb3;
+    width: 20rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 40px;
+    border-left: solid white 2px ;
+    border-right: solid white 2px ;
+
+}
+
+#titulo-vino h1 {
+    margin: 1rem;
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 0px 50px;
+    color: white;
+    border-left: solid white 3px;
+    border-right: solid white 3px;
+
+}
+
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5rem 0rem;
+    color: whitesmoke;
+    font-size: 1.8rem;
+}
+
+#descrisao-vinos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: whitesmoke;
+    margin: 8rem 0rem 0rem;
+    font-size: 1.5rem;
+}
+
+#cavas-champns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: whitesmoke;
+    margin: 8rem 0rem 0rem;
+    font-size: 1.5rem;
+}
